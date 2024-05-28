@@ -1,0 +1,260 @@
+**1. Discuss about the various transmission Media**
+Types of Transmission Media:
+In data communication terminology, a transmission medium is a physical path between the transmitter and the receiver i.e. it is the channel through which data is sent from one place to another. Transmission Media is broadly classified into the following types: 
+1.	Guided Media: It is also referred to as Wired or Bounded transmission media. Signals being transmitted are directed and confined in a narrow pathway by using physical links.
+i) Twisted Pair Cable – It consists of 2 separately insulated conductor wires wound about each other. Generally, several such pairs are bundled together in a protective sheath. They are the most widely used Transmission Media. Twisted Pair is of two types: 
+
+1.	Unshielded Twisted Pair (UTP): UTP consists of two insulated copper wires twisted around one another. This type of cable has the ability to block interference and does not depend on a physical shield for this purpose. It is used for telephonic applications.
+
+2.	Shielded Twisted Pair (STP): This type of cable consists of a special jacket (a copper braid covering or a foil shield) to block external interference. It is used in fast-data-rate Ethernet and in voice and data channels of telephone lines.
+
+(ii) Coaxial Cable – 
+It has an outer plastic covering containing an insulation layer made of PVC or Teflon and 2 parallel conductors each having a separate insulated protection cover. The coaxial cable transmits information in two modes: Baseband mode(dedicated cable bandwidth) and Broadband mode(cable bandwidth is split into separate ranges). Cable TVs and analog television networks widely use Coaxial cables.
+
+(iii) Optical Fiber Cable – 
+It uses the concept of refraction of light through a core made up of glass or plastic. The core is surrounded by a less dense glass or plastic covering called the cladding. It is used for the transmission of large volumes of data.
+
+2.	Unguided Media: It is also referred to as Wireless or Unbounded transmission media. No physical medium is required for the transmission of electromagnetic signals.
+                     There are 3 types of Signals transmitted through unguided media: 
+ (i) Radio waves –  These are easy to generate and can penetrate through buildings. The sending and receiving antennas need not be aligned. Frequency Range:3KHz – 1GHz. AM and FM radios and cordless phones use Radio waves for transmission.
+(ii) Microwaves –  It is a line of sight transmission i.e. the sending and receiving antennas need to be properly aligned with each other. The distance covered by the signal is directly proportional to the height of the antenna. Frequency Range:1GHz – 300GHz. These are majorly used for mobile phone communication and television distribution.
+(iii) Infrared – Infrared waves are used for very short distance communication. They cannot penetrate through obstacles. This prevents interference between systems. Frequency Range:300GHz – 400THz. It is used in TV remotes, wireless mouse, keyboard, printer, etc.
+
+
+
+**2) What is the utility of a Network Interface Card?**
+
+NIC stands for Network Interface Card NIC is additionally called Ethernet or physical or network card. NIC is one of the major and imperative components to associate a gadget to the network. Each gadget that must be associated with a network must have a network interface card. Even the switches comprise of NIC in arrange to associate to the systems. It is the foremost essential network component without which you cannot interface any gadget to a network. It could be a circuit board or a card which is introduced in the computer or PC so that it acts as an arbiter for organizing and computer or PC. It is shown on layer 2 of the OSI show which is an information interface layer that employs MAC address.
+Network Interface Card (NIC) is a hardware component that is present on the computer. It is used to connect different networking devices such as computers and servers to share data over the connected network. It provides functionality such as support for I/O interrupt, Direct Memory Access (DMA) interfaces, partitioning, and data transmission.
+NIC is important for us to establish a wired or wireless connection over the network.
+Network Interface Card is also known as Network Interface Controller, Network Adapter, Ethernet card, Connection card, and LAN (Local Area Network) Adapter.
+Functions of the Network Interface Card
+A list of functions of the Network Interface Card is given below -
+NIC is used to convert data into a digital signal.
+In the OSI model, NIC uses the physical layer to transmit signals and the network layer to transmit data packets.
+NIC offers both wired (using cables) and wireless (using Wi-Fi) data communication techniques.
+NIC is a middleware between a computer/server and a data network.
+NIC operates on both physical as well as the data link layer of the OSI model.
+
+
+
+
+**3) Write down the difference between logical address and physical address.**
+In computer networks, logical addresses and physical addresses serve distinct purposes:
+
+1. **Logical Address:**
+   - **Purpose:** Logical addresses are used to uniquely identify a network device within a network.
+   - **Representation:** They are typically represented in the form of IP (Internet Protocol) addresses in IPv4 or IPv6 format.
+   - **Layer:** Logical addresses operate at the network layer (Layer 3) of the OSI model or the Internet layer of the TCP/IP model.
+   - **Examples:** IPv4 addresses (e.g., 192.168.1.1) and IPv6 addresses (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334) are examples of logical addresses.
+
+2. **Physical Address:**
+   - **Purpose:** Physical addresses are used to uniquely identify a network device at the data link layer.
+   - **Representation:** They are typically represented as MAC (Media Access Control) addresses, which are assigned to network interface cards (NICs) by their manufacturers.
+   - **Layer:** Physical addresses operate at the data link layer (Layer 2) of the OSI model.
+   - **Examples:** MAC addresses (e.g., 00:1A:2B:3C:4D:5E) are examples of physical addresses.
+
+**Differences:**
+- **Layer:** Logical addresses operate at the network layer, while physical addresses operate at the data link layer.
+- **Function:** Logical addresses are used for logical communication between devices across networks, whereas physical addresses are used for addressing within the local network segment.
+- **Representation:** Logical addresses are typically represented as IP addresses, while physical addresses are represented as MAC addresses.
+- **Assignment:** Logical addresses can be assigned statically or dynamically (e.g., via DHCP), whereas physical addresses are typically assigned by hardware manufacturers and are hardcoded into network devices.
+- **Scope:** Logical addresses are global and routable across different networks, while physical addresses are local to a specific network segment.
+
+
+
+**4)	Compare between various network topologies.**
+
+The arrangement of a network that comprises nodes and connecting lines via sender and receiver is referred to as Network Topology. The various network topologies are:
+
+Mesh Topology: In a mesh topology, every device is connected to another device via a particular channel. In Mesh Topology, the protocols used are AHCP (Ad Hoc Configuration Protocols), DHCP (Dynamic Host Configuration Protocol), etc.
+
+Star Topology: In Star Topology, all the devices are connected to a single hub through a cable. This hub is the central node and all other nodes are connected to the central node. The hub can be passive in nature i.e., not an intelligent hub such as broadcasting devices, at the same time the hub can be intelligent known as an active hub. Active hubs have repeaters in them. Coaxial cables or RJ-45 cables are used to connect the computers. In Star Topology, many popular Ethernet LAN protocols are used as CD(Collision Detection), CSMA (Carrier Sense Multiple Access), etc.
+
+Bus Topology is a network type in which every computer and network device is connected to a single cable. It is bi-directional. It is a multi-point connection and a non-robust topology because if the backbone fails the topology crashes. In Bus Topology, various MAC (Media Access Control) protocols are followed by LAN ethernet connections like TDMA, Pure Aloha, CDMA, Slotted Aloha, etc.
+
+Ring Topology: In a Ring Topology, it forms a ring connecting devices with exactly two neighboring devices. A number of repeaters are used for Ring topology with a large number of nodes, because if someone wants to send some data to the last node in the ring topology with 100 nodes, then the data will have to pass through 99 nodes to reach the 100th node. Hence to prevent data loss repeaters are used in the network.
+
+The data flows in one direction, i.e. it is unidirectional, but it can be made bidirectional by having 2 connections between each Network Node, it is called Dual Ring Topology. In-Ring Topology, the Token Ring Passing protocol is used by the workstations to transmit the data.
+
+               
+
+
+
+
+
+
+
+
+
+**5)	Write a short note on Telnet.**
+
+TELNET stands for Teletype Network. It is a type of protocol that enables one computer to connect to the local computer. It is used as a standard TCP/IP protocol for virtual terminal service which is provided by ISO. The computer which starts the connection is known as the local computer. 
+The computer which is being connected to i.e. which accepts the connection known as the remote computer.
+During telnet operation, whatever is being performed on the remote computer will be displayed by the local computer. Telnet operates on a client/server principle. The local computer uses a telnet client program and the remote computers use a telnet server program. 
+Advantages of Telnet
+1.	It provides remote access to someone’s computer system.
+2.	Telnet allows the user for more access with fewer problems in data transmission.
+3.	Telnet saves a lot of time.
+4.	The oldest system can be connected to a newer system with telnet having different operating systems.
+Disadvantages of Telnet
+1.	As it is somehow complex, it becomes difficult to beginners in understanding.
+2.	Data is sent here in form of plain text, that’s why it is not so secured.
+3.	Some capabilities are disabled because of not proper interlinking of the remote and local devices.
+
+Modes of Operation
+Most telnet implementations operate in one of the following three modes: 
+Default mode
+Character mode
+Line mode
+1. Default Mode: If no other modes are invoked then this mode is used. Echoing is performed in this mode by the client. In this mode, the user types a character and the client echoes the character on the screen but it does not send it until the whole line is completed.
+
+2. Character Mode: Each character typed in this mode is sent by the client to the server. A server in this type of mode normally echoes characters back to be displayed on the client’s screen.
+
+3. Line Mode:  Line editing like echoing, character erasing, etc. is done from the client side. The client will send the whole line to the server.
+
+
+**6) Discuss about firewalls.**
+A firewall is a type of network security device that filters incoming and outgoing network traffic with security policies that have previously been set up inside an organization. A firewall is essentially the wall that separates a private internal network from the open Internet at its very basic level.
+Functions of Firewall
+•	Every piece of data that enters or leaves a computer network must go via the firewall.
+•	If the data packets are safely routed via the firewall, all of the important data remains intact.
+•	A firewall logs each data packet that passes through it, enabling the user to keep track of all network activities.
+•	Since the data is stored safely inside the data packets, it cannot be altered.
+•	Every attempt for access to our operating system is examined by our firewall, which also blocks traffic from unidentified or undesired sources.
+Advantages of using Firewall
+•	Protection from unauthorized access: Firewalls can be set up to restrict incoming traffic from particular IP addresses or networks, preventing hackers or other malicious actors from easily accessing a network or system. Protection from unwanted access.
+•	Prevention of malware and other threats: Malware and other threat prevention: Firewalls can be set up to block traffic linked to known malware or other security concerns, assisting in the defense against these kinds of attacks.
+•	Control of network access: By limiting access to specified individuals or groups for particular servers or applications, firewalls can be used to restrict access to particular network resources or services. 
+Disadvantages of using Firewall
+•	Complexity: Setting up and keeping up a firewall can be time-consuming and difficult, especially for bigger networks or companies with a wide variety of users and devices.
+•	Limited Visibility: Firewalls may not be able to identify or stop security risks that operate at other levels, such as the application or endpoint level, because they can only observe and manage traffic at the network level.
+•	False sense of security: Some businesses may place an excessive amount of reliance on their firewall and disregard other crucial security measures like endpoint security or intrusion detection systems.
+•	Limited adaptability: Because firewalls are frequently rule-based, they might not be able to respond to fresh security threats. 
+
+
+
+
+**7)	Write down the steps to configure File Transfer Protocol.**
+File transfer protocol (FTP) is an Internet tool provided by TCP/IP.  It helps to transfer files from one computer to another by providing access to directories or folders on remote computers and allows software, data, text file to be transferred between different kinds of computers. The end-user in the connection is known as localhost and the server which provides data is known as the remote host. 
+The goals of FTP are: 
+•	It encourages the direct use of remote computers.
+•	It shields users from system variations (operating system, directory structures,  file structures, etc.)
+•	It promotes sharing of files and other types of data.
+Detail steps of FTP
+•	FTP client contacts FTP server at port 21 specifying TCP as transport protocol.
+•	Client obtain authorization over control connection.
+•	Client browse remote directory by sending commands over control connection.
+•	When server receives a command for a file transfer, the server open a TCP data connection to client.
+•	after transferring one file, server closes connection.
+•	server opens a second TCP data connection to transfer another file.
+•	FTP server maintains state i.e. current directory, earlier authentication
+The following are the applications of FTP:
+•	FTP connection is used by different big business organizations for transferring files in between them, like sharing files to other employees working at different locations or different branches of the organization.
+•	FTP connection is used by IT companies to provide backup files at disaster recovery sites.
+•	Financial services use FTP connections to securely transfer financial documents to the respective company, organization, or government.
+•	Employees use FTP connections to share any data with their co-workers.
+
+
+
+
+
+
+
+**8)	Write a short note on DNS.**
+Domain Name System (DNS) is a hostname for IP address translation service. DNS is a distributed database implemented in a hierarchy of name servers. It is an application layer protocol for message exchange between clients and servers. It is required for the functioning of the Internet.
+What is the Need of DNS?
+Every host is identified by the IP address but remembering numbers is very difficult for people also the IP addresses are not static therefore a mapping is required to change the domain name to the IP address. So DNS is used to convert the domain name of the websites to their numerical IP address. 
+Types of Domain
+ There are various kinds of domain:
+1.	Generic domains: .com(commercial), .edu(educational), .mil(military), .org(nonprofit organization), .net(similar to commercial) all these are generic domains.
+2.	Country domain: .in (India) .us .uk
+3.	Inverse domain: if we want to know what is the domain name of the website. Ip to domain name mapping. So DNS can provide both the mapping for example to find the IP addresses of geeksforgeeks.org then we have to type 
+How Does DNS Work?
+The working of DNS starts with converting a hostname into an IP Address. A domain name serves as a distinctive identification for a website. It is used in place of an IP address to make it simpler for consumers to visit websites. Domain Name System works by executing the database whose work is to store the name of hosts which are available on the Internet. The top-level domain server stores address information for top-level domains such as .com and .net, .org, and so on. If the Client sends the request, then the DNS resolver sends a request to DNS Server to fetch the IP Address. In case, when it does not contain that particular IP Address with a hostname, it forwards the request to another DNS Server. When IP Address has arrived at the resolver, it completes the request over Internet Protocol.
+
+
+
+**9)	Compare between Hub, Switch and Router**
+
+1. Hub :
+A Hub is just a connector that connects the wires coming from different sides. There is no signal processing or regeneration. It is an electronic device that operates only on physical layers of the OSI model.
+It is also known as a repeater as it transmits signal to every port except the port from where signal is received. Also, hubs are not that intelligent in communication and processing information for 2nd and 3rd layer.
+2. Switch : Switch is a point to point communication device. It operates at the data link layer of OSI model. It uses switching table to find out the correct destination.
+Basically, it is a kind of bridge that provides better connections. It is a kind of device that set up and stop the connections according to the requirements  needed at that time. It comes up with many features such as flooding, filtering and frame transmission.
+3. Router :
+Routers are the multiport devices and more sophisticated as compared to repeaters and bridges. It contains a routing table that enables it to make decision about the route i.e. to determine which of several possible paths between the source and destination is the best for a particular transmission.
+It works on the network layer 3 and used in LANs, MANs and WANs. It stores IP address and maintains address on its own.
+
+1.	Hub is a physical layer device i.e. layer 1. 	Switch is a data link layer device i.e. layer 2. 	Router is a network layer device i.e. layer 3.  
+2.	A Hub works on the basis of broadcasting.	Switch works on the basis of MAC address.	A router works on the basis of IP address.
+3.	A Hub is a multiport repeater in which a signal introduced at the input of any port appears at the output of the all available ports.	A Switch is  a tele-communication  device which receives a message from any device connected to it and then transmits the message only to the device for which the message is intended.	A router reads the header of incoming packet and forward it to the port for which it is intended there by determines the route. It can also perform filtering and encapsulation.
+4.	Hub is not an intelligent device that may include amplifier on repeater.	A Switch is an intelligent device as it passes on the message to the selective device by inspecting the address.	A route is more sophisticated and intelligent device as it can read IP address and direct the packets to another network with specified IP address. Moreover routers can built address tables that helps in routing decisions.
+5.	At least single network is required to connect.	At least single network is required to connect.	Router needs at least two networks to connect. 
+6.	Hub is cheaper as compared to switch and router. 	Switch is an expensive device than hub.	Router is a relatively much more expensive device than hub and switch.
+7.	Speed of original hub 10Mbps and modern internet hub is 100Mbps.	maximum speed is 10Mbps to 100Mbps.	maximum speed for wireless is 1-10 Mbps and maximum speed for wired connections is 100 Mbps.
+8.	Hubs are used in LANs.	Switch is used in LANs.	Routers are used in LANs, MANs and WANs.
+
+
+**10) Discuss various types of cable used in computer networks.**
+Mainly there are three types of ethernet cables used in LANs i.e., Coaxial cables, Twisted Pair cables, and Fiber optic cables.
+1. Coaxial Cables: A coaxial cable is used to carry high-frequency electrical signals with low losses. It uses 10Base2 and 10Base5 Ethernet variants. It has a copper conductor in the middle that is surrounded by a dielectric insulator usually made of PVC or Teflon. The dielectric insulator is surrounded by a braided conducting metallic shield which reduces EMI (Electromagnetic Interference) of the metal and outside interference; and finally, the metallic shield is covered by a plastic covering called a sheath usually made of PVC or some other fire-resistant plastic material. Its maximum transmission speed is 10 Mbps. It is usually used in telephone systems, cable TV, etc.
+2. Twisted Pair Cable: Twisted pair is a copper wire cable in which two insulated copper wires are twisted around each other to reduce interference or crosstalk. It uses 10BASE-T, 100BASE-T, and some other newer ethernet variants. It uses RJ-45 connectors.
+3. Fiber Optic Cable: Fiber optic cables use optical fibers which are made of glass cores surrounded by several layers of cladding material usually made of PVC or Teflon, it transmits data in the form of light signals due to which there are no interference issues in fiber optics. Fiber optics can transmit signals over a very long distance as compared to twisted pairs or coaxial cables. It uses 10BaseF, 100BaseFX, 100BaseBX, 100BaseSX, 1000BaseFx, 1000BaseSX, and 1000BaseBx ethernet variants. Hence, it is capable of carrying information at a great speed.
+
+
+
+**11)	Discuss about client server communication paradigm.**
+The Client-server model is a distributed application structure that partitions tasks or workloads between the providers of a resource or service, called servers, and service requesters called clients. In the client-server architecture, when the client computer sends a request for data to the server through the internet, the server accepts the requested process and delivers the data packets requested back to the client. Clients do not share any of their resources. Examples of the Client-Server Model are Email, World Wide Web, etc.
+How Does the Client-Server Model Work?
+In this article, we are going to take a dive into the Client-Server model and have a look at how the Internet works via, web browsers. This article will help us have a solid WEB foundation and help us easily work with WEB technologies.
+•	Client: When we say the word Client, it means to talk of a person or an organization using a particular service. Similarly in the digital world, a Client is a computer (Host) i.e. capable of receiving information or using a particular service from the service providers (Servers).
+•	Servers: Similarly, when we talk about the word Servers, It means a person or medium that serves something. Similarly in this digital world, a Server is a remote computer that provides information (data) or access to particular services.
+So, it is the Client requesting something and the Server serving it as long as it is in the database.
+
+Advantages of Client-Server Model
+•	Centralized system with all data in a single place.
+•	Cost efficient requires less maintenance cost and Data recovery is possible.
+•	The capacity of the Client and Servers can be changed separately.
+Disadvantages of Client-Server Model
+•	Clients are prone to viruses, Trojans, and worms if present in the Server or uploaded into the Server.
+•	Servers are prone to Denial of Service (DOS) attacks.
+•	Data packets may be spoofed or modified during transmission.
+•	Phishing or capturing login credentials or other useful information of the user are common and MITM(Man in the Middle) attacks are common.
+
+
+
+
+
+
+**12)	Differentiate between unicast, broadcast, &amp; multicast form of message deliveries.**
+
+Feature	Unicast	Broadcast	Multicast
+Definition 	A communication where a message is sent from one sender to one receiver.	A communication where a message is sent from one sender to all receivers.	A communication where a message is sent from one sender to a group of receivers
+Transmission 	Data is sent to a single recipient.	Data is sent to all recipients in a network	Data is sent to a group of recipients.
+Addressing 	Uses a unique destination address.	Uses a special broadcast address	Uses a special multicast address.
+Delivery 	Guaranteed delivery.	Not all devices may be interested in the data.	Not all devices may be interested in the data
+Network Traffic	Generates the least amount of network traffic.	Generates the most amount of network traffic.	Generates moderate network traffic
+Security 	More secure because data is sent to a specific recipient.	Less secure because data is sent to all devices in the network.	Moderately secure because data is sent to a specific group of devices
+Examples 	Email, file transfer. 	DHCP requests, ARP requests.	Video streaming, online gaming
+Destination	Single receiver.	All receivers.	Group of receivers
+Bandwidth usage	Moderate.	High.	Moderate 
+Latency	Low	High. 	Moderate
+
+1. Unicast: This type of information transfer is useful when there is a participation of a single sender and a single recipient. So, in short, you can term it a one-to-one transmission. For example, if a device having IP address 10.1.2.0 in a network wants to send the traffic stream(data packets) to the device with IP address 20.12.4.2 in the other network, then unicast comes into the picture. This is most common form of data transfer over networks. 
+2. Broadcast: Broadcasting transfer (one-to-all) techniques can be classified into two types:
+Limited Broadcasting: Suppose you have to send a stream of packets to all the devices over the network that your reside, this broadcasting comes in handy. For this to achieve, it will append 255.255.255.255 (all the 32 bits of IP address set to 1) called Limited Broadcast Address in the destination address of the datagram (packet) header which is reserved for information transfer to all the recipients from a single client (sender) over the network. 
+Direct Broadcasting: This is useful when a device in one network wants to transfer packet stream to all the devices over the other network. This is achieved by translating all the Host ID part bits of the destination address to 1, referred to as Direct Broadcast Address in the datagram header for information transfer.
+3. Multicast: In multicasting, one/more senders and one/more recipients participate in data transfer traffic. In this method traffic recline between the boundaries of unicast (one-to-one) and broadcast (one-to-all). Multicast lets servers direct single copies of data streams that are then simulated and routed to hosts that request it. IP multicast requires the support of some other protocols like IGMP (Internet Group Management Protocol), Multicast routing for its work. Also in Classful IP addressing Class D is reserved for multicast groups. 
+
+
+
+
+
+
+
+
+
+
+
+
